@@ -8,6 +8,10 @@ package Model;
  *
  * @author keity
  */
-public class Usuario {
+public class  {
+    
+    
+    private nome String;
+    private 
     
 }
