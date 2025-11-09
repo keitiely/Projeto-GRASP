@@ -54,5 +54,37 @@ public class Livro {
     }
 
     // Getters e Setters...
-  
+    
+    public String getTitulo(){
+        return titulo;
+    }
+    
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+    
+     public String getAutor(){
+        return autor;
+    }
+    
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+    
+     public boolean getEmprestado(){
+        return emprestado;
+    }
+    
+    public void setEmprestado(boolean emprestado){
+        this.emprestado = emprestado;
+    }
+    
+     public Usuario getEmprestadoPara(){
+        return emprestadoPara;
+    }
+    
+    public void setEmprestadoPara(Usuario emprestadoPara){
+        this.emprestadoPara = emprestadoPara;
+    } 
+    
 }
